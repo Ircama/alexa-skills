@@ -1,0 +1,4 @@
+boto3==1.9.216
+ask-sdk-core==1.11.0
+pytube3==9.6.4
+urllib3==1.22

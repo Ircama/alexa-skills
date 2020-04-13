@@ -1,0 +1,66 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "it-IT": {
+          "summary": "Radio Maria",
+          "examplePhrases": [
+            "Alexa, Radio Maria",
+            "Alexa, stop",
+            "Alexa, silenzio"
+          ],
+          "keywords": [
+            "radio",
+            "maria"
+          ],
+          "name": "Radio Maria",
+          "smallIconUri": "file://assets/images/it-IT_smallIconUri.png",
+          "description": "https://radiomaria.it/",
+          "largeIconUri": "file://assets/images/it-IT_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Run the app and play the live audio stream",
+      "category": "STREAMING_SERVICE",
+      "gadgetSupport": {
+        "maxGadgetButtons": 1,
+        "minGadgetButtons": 1,
+        "numPlayersMax": 1,
+        "requirement": "OPTIONAL",
+        "numPlayersMin": 1
+      },
+      "distributionCountries": [
+        "IT"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:434916142362:function:5a94e3d4-5b24-4c66-824f-dd95eb1a58f0:Release_0"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          },
+          {
+            "type": "GADGET_CONTROLLER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "it-IT": {}
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

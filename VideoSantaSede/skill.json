@@ -1,0 +1,53 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "it-IT": {
+          "summary": "Vatican News - Italiano - Youtube channel",
+          "examplePhrases": [
+            "Alexa, video santa sede",
+            "Alexa, stop",
+            "alexa, silenzio"
+          ],
+          "keywords": [],
+          "name": "Video Santa Sede",
+          "smallIconUri": "file://assets/images/it-IT_smallIconUri.png",
+          "description": "https://www.youtube.com/channel/UCkwbN2a1L1H6P9rcA7FhAqg",
+          "largeIconUri": "file://assets/images/it-IT_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Start the application and test the playout of the video stream.",
+      "category": "STREAMING_SERVICE",
+      "distributionCountries": [
+        "IT"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:434916142362:function:e144321d-610b-433c-b92b-45886cb5e1c4:Release_0"
+        },
+        "interfaces": [
+          {
+            "type": "VIDEO_APP"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "it-IT": {}
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

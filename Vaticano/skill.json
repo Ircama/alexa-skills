@@ -1,0 +1,56 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "it-IT": {
+          "summary": "Vatican Media Live",
+          "examplePhrases": [
+            "Alexa, Vaticano",
+            "Alexa, stop",
+            "Alexa, silenzio"
+          ],
+          "keywords": [
+            "vaticano",
+            "televisione"
+          ],
+          "name": "Vatican Media Live",
+          "smallIconUri": "file://assets/images/it-IT_smallIconUri.png",
+          "description": "https://www.youtube.com/watch?v\u003dojGaZWm93WU",
+          "largeIconUri": "file://assets/images/it-IT_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Run the app and play the live video stream.",
+      "category": "STREAMING_SERVICE",
+      "distributionCountries": [
+        "IT"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:434916142362:function:4f05a206-88b6-46e6-aa42-56c7fd033f66:Release_0"
+        },
+        "interfaces": [
+          {
+            "type": "VIDEO_APP"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "it-IT": {}
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
