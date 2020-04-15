@@ -16,19 +16,28 @@
           "samples": []
         },
         {
-          "name": "video",
+          "name": "mainIntent",
           "slots": [],
           "samples": [
-            "video"
+            "video",
+            "audio"
           ]
         },
         {
           "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
           "samples": []
         }
       ],
       "types": []
     }
   },
-  "version": "10"
+  "version": "15"
 }

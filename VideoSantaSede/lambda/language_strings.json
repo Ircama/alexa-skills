@@ -1,0 +1,60 @@
+{
+    "en": {
+        "CHANNEL": "UC7E-LYc1wivk33iyt5bR5zQ",
+        "SKILL_NAME": "Last video from Vatican News",
+        "VIDEO_MESSAGE": "Last video from Vatican News site",
+        "AUDIO_MESSAGE": "Last audio from Vatican News site",
+        "NO_INTERFACE": "Your device does not allow showing the last video from Vatican News",
+        "NO_VIDEO": "No video available from Vatican News site",
+        "TOO_MANY_REQUESTS": "Error. Too many requests. Please wait some time before retrying",
+        "URL_ERROR": "Internal error. Wrong URL address",
+        "YOUTUBE_ERROR": "Internal error. YouTube did not provide valid data",
+        "GOODBYE": "Thanks for listening"
+    },
+    "en-AU": {
+    },
+    "en-CA": {
+    },
+    "en-GB": {
+    },
+    "en-IN": {
+    },
+    "es": {
+    },
+    "es-ES": {
+    },
+    "es-MX": {
+    },
+    "es-US": {
+    },
+    "fr": {
+    },
+    "fr-FR": {
+    },
+    "fr-CA": {
+    },
+    "hi": {
+    },
+    "hi-IN": {
+    },
+    "it": {
+        "CHANNEL": "UCkwbN2a1L1H6P9rcA7FhAqg",
+        "SKILL_NAME": "Ultimo video dal sito delle notizie della Santa Sede",
+        "VIDEO_MESSAGE": "Ecco l'ultimo video dal sito delle notizie della Santa Sede",
+        "AUDIO_MESSAGE": "Ecco l'ultimo audio dal sito delle notizie della Santa Sede",
+        "NO_INTERFACE": "Il tuo dispositivo non ha la possibilità di visualizzare l'ultimo video dal sito delle notizie della Santa Sede",
+        "NO_VIDEO": "Nessun video disponibile dal sito delle notizie della Santa Sede",
+        "TOO_MANY_REQUESTS": "Errore. Troppe richieste. Per cortesia, attendi un po' di tempo prima di riprovare",
+        "URL_ERROR": "Errore interno. Indirizzo URL sbagliato",
+        "YOUTUBE_ERROR": "Errore interno. YouTube non ha fornito dati validi",
+        "GOODBYE": "Grazie per l'ascolto"
+    },
+    "it-IT": {
+    },
+    "jp": {
+    },
+    "pt": {
+    },
+    "pt-BR": {
+    }
+}

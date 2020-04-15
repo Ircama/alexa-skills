@@ -11,8 +11,8 @@
           ],
           "keywords": [],
           "name": "Video Santa Sede",
-          "smallIconUri": "file://assets/images/it-IT_smallIconUri.png",
           "description": "https://www.youtube.com/channel/UCkwbN2a1L1H6P9rcA7FhAqg",
+          "smallIconUri": "file://assets/images/it-IT_smallIconUri.png",
           "largeIconUri": "file://assets/images/it-IT_largeIconUri.png"
         }
       },
@@ -34,6 +34,9 @@
         "interfaces": [
           {
             "type": "VIDEO_APP"
+          },
+          {
+            "type": "AUDIO_PLAYER"
           }
         ]
       }
@@ -44,8 +47,8 @@
       "locales": {
         "it-IT": {}
       },
-      "isExportCompliant": true,
       "containsAds": false,
+      "isExportCompliant": true,
       "isChildDirected": false,
       "usesPersonalInfo": false
     }
