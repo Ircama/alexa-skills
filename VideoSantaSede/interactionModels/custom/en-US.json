@@ -1,0 +1,43 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "vatican news",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "mainIntent",
+          "slots": [],
+          "samples": [
+            "video",
+            "audio"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "1"
+}
